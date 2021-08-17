@@ -34,6 +34,9 @@ body{
 h3{
   color: rgb(13, 107, 107);
 }
+a{
+  color: whitesmoke;
+}
 .head-wrap-right > img{
   border-radius: 50%;
   border: 2px solid whitesmoke;
