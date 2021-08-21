@@ -36,6 +36,7 @@ h3{
 }
 a{
   color: whitesmoke;
+  text-decoration: none;
 }
 .head-wrap-right > img{
   border-radius: 50%;
