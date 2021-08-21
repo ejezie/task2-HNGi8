@@ -50,10 +50,25 @@ a{
 }
 .content-one{
   margin-bottom: 5%;
+  box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  padding: 3%;
+  border-radius: 5px;
 }
+.content-two{
+  margin-bottom: 5%;
+  box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  padding: 3%;
+  border-radius: 5px;
+}
+.content
 .content-two > ul{
-  margin-left: 7%;
+  margin-left: 15%;
   width: 20em;
+  text-decoration: none;
 }
 .skill{
   display: flex;
@@ -63,9 +78,10 @@ a{
   background-color: rgb(128, 120, 120);
   border-radius: 5px;
   margin: 0% 2% 2% 0%;
-  padding: 0.4%;
-  min-width: 10em;
+  padding: 0.2%;
+  min-width: 7rem;
   text-align: center;
+  font-size: 0.8rem;
 }
 .zuri{
   display: flex;
@@ -80,16 +96,48 @@ a{
   border: 0.5px solid rgba(222, 184, 135, 0.5);
   margin-bottom: 0.5%;
 }
+.content-one-right{
+  margin-bottom: 5%;
+  box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  padding: 3%;
+  border-radius: 5px;
+}
+.content-one-two{
+  margin-bottom: 5%;
+  box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  padding: 3%;
+  border-radius: 5px;
+}
+.content-one-three{
+  margin-bottom: 5%;
+  box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.75);
+  padding: 3%;
+  border-radius: 5px;
+}
+.right{
+  width: 40%;
+}
 
 @media (max-width: 460px) {
   .header-bottom-wrap{
    flex-direction: column;
+   text-align: center;
+   padding: 5%;
   }
   .header-bottom  p{
     margin: 2% 0% 0% 0%;
   }
   .header-wrap {
     font-size: 0.77rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 5%;
   }
   .resume-body{
     flex-direction: column;
@@ -105,5 +153,8 @@ a{
   }
   .content-one-three > h1{
     margin-top: 5%;
+  }
+  .right{
+    width: 100%;
   }
 }
